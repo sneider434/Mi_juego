@@ -1,2 +1,4 @@
 res://Slughereos/heroe.tscn
 res://Slughereos/mainscene.tscn
+res://Slughereos/enemigo.tscn
+res://Slughereos/character_body_2d.gd

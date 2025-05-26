@@ -1,10 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1748223042
-::res://Fondos/::1748213787
+::res://::1748297222
+::res://Fondos/::1748272074
+1000_F_601211158_bu0EaLaEqZwLyweHdtsxJf8GfDkMO7hI.jpg::CompressedTexture2D/CompressedTexture2D::432207439816751752::1748272072::1748272074::1::::<><><>0<>0<>0847dd33f2824eb2bcd10542875d28f3<>res://.godot/imported/1000_F_601211158_bu0EaLaEqZwLyweHdtsxJf8GfDkMO7hI.jpg-0d731c99d012ac7b68fd062fdcab1651.ctex::
 AUXwGcVgSh0v6POuTDYvWH1kEzBQvK1EWb777KbSp4w.webp::CompressedTexture2D/CompressedTexture2D::8399109987088354530::1748213785::1748213787::1::::<><><>0<>0<>922cc55c075b6788ed376a849de08668<>res://.godot/imported/AUXwGcVgSh0v6POuTDYvWH1kEzBQvK1EWb777KbSp4w.webp-30e2fc60992ae6a6517398c09c9c1bee.ctex::
-::res://Slughereos/::1748222269
-heroe.tscn::PackedScene/PackedScene::4766250755149882453::1748220342::0::1::::<><><>0<>0<><>::
-mainscene.tscn::PackedScene::6389005808098659910::1748220236::0::1::::<><><>0<>0<><>::uid://drwud5g5c2mo5::::res://Fondos/AUXwGcVgSh0v6POuTDYvWH1kEzBQvK1EWb777KbSp4w.webp
+::res://Slughereos/::1748297209
+character_body_2d.gd::GDScript::9164780842297063484::1748297117::0::1::::<>RefCounted<><>0<>0<><>::
+enemigo.tscn::PackedScene::7938897088953753219::1748297209::0::1::::<><><>0<>0<><>::uid://xiovur2m25c5::::res://Slughereos/biblioteca/Flying Demon 2D Pixel Art/Sprites/with_outline/ATTACK.png<>uid://d3tqupkvif0ei::::res://Slughereos/character_body_2d.gd<>uid://b4a5lsavkvjvh::::res://Slughereos/biblioteca/Flying Demon 2D Pixel Art/Sprites/with_outline/HURT.png<>uid://gwaaj7jtrb6w::::res://Slughereos/biblioteca/Flying Demon 2D Pixel Art/Sprites/with_outline/DEATH.png<>uid://b4ne5xpnoijmw::::res://Slughereos/biblioteca/Flying Demon 2D Pixel Art/Sprites/with_outline/FLYING.png<>uid://bvasipk3xow50::::res://Slughereos/biblioteca/Flying Demon 2D Pixel Art/Sprites/with_outline/IDLE.png
+heroe.tscn::PackedScene::556048939321047312::1748297209::0::1::::<><><>0<>0<><>::uid://dvmuiegn5typh::::res://Slughereos/biblioteca/Cursed_Character_Pack_COMPLETE/Shotgun/run.png<>uid://b0qr8cebjdhgo::::res://Slughereos/jesus_shein.gd<>uid://wb7px4vlf5ti::::res://Slughereos/biblioteca/Cursed_Character_Pack_COMPLETE/Shotgun/idle.png<>uid://crantqhf82i8b::::res://Slughereos/biblioteca/Cursed_Character_Pack_COMPLETE/Shotgun/dash.png<>uid://cffpucitntl70::::res://Slughereos/biblioteca/Cursed_Character_Pack_COMPLETE/Shotgun/damaged.png<>uid://dvgffietjpdik::::res://Slughereos/biblioteca/Cursed_Character_Pack_COMPLETE/Shotgun/run-shoot.png<>uid://jq8om3c1m7et::::res://Slughereos/biblioteca/Cursed_Character_Pack_COMPLETE/Shotgun/death.png<>uid://ddn3ktr5645m4::::res://Slughereos/biblioteca/Cursed_Character_Pack_COMPLETE/Shotgun/reload.png<>uid://0x2vtq2qjliu::::res://Slughereos/biblioteca/Cursed_Character_Pack_COMPLETE/Shotgun/jump.png<>uid://df4f52oplw4m0::::res://Slughereos/biblioteca/Cursed_Character_Pack_COMPLETE/Shotgun/heal.png<>uid://x53yxomdy71j::::res://Slughereos/biblioteca/Cursed_Character_Pack_COMPLETE/Shotgun/walk.png
+jesus_shein.gd::GDScript::4175263050068265150::1748296615::0::1::::<>CharacterBody2D<><>0<>0<><>::
+mainscene.tscn::PackedScene::6389005808098659910::1748297209::0::1::::<><><>0<>0<><>::uid://gfmnm0x4frqm::::res://Fondos/1000_F_601211158_bu0EaLaEqZwLyweHdtsxJf8GfDkMO7hI.jpg<>uid://h6mbr1pvki8o::::res://Slughereos/heroe.tscn<>uid://dldwqfj8xmgfr::::res://Slughereos/enemigo.tscn
 ::res://Slughereos/biblioteca/::1748222273
 ::res://Slughereos/biblioteca/Cursed_Character_Pack_COMPLETE/::1748222273
 ::res://Slughereos/biblioteca/Cursed_Character_Pack_COMPLETE/Pistol/::1748222287
