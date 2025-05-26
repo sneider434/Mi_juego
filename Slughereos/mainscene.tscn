@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://cxa48y88hyha1"]
+
+[ext_resource type="Texture2D" uid="uid://drwud5g5c2mo5" path="res://Fondos/AUXwGcVgSh0v6POuTDYvWH1kEzBQvK1EWb777KbSp4w.webp" id="1_wtdyi"]
+[ext_resource type="PackedScene" uid="uid://b852polqo6gbd" path="res://Slughereos/heroe.tscn" id="2_0c74a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5yjgi"]
+size = Vector2(1092, 67)
+
+[node name="Mainscene" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(550, 324)
+scale = Vector2(1.70938, 1.615)
+texture = ExtResource("1_wtdyi")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(551, 612.5)
+shape = SubResource("RectangleShape2D_5yjgi")
+
+[node name="Heroe" parent="." instance=ExtResource("2_0c74a")]
+
+[node name="Heroe2" parent="." instance=ExtResource("2_0c74a")]
+
+[node name="Heroe3" parent="." instance=ExtResource("2_0c74a")]
+
+[node name="Heroe4" parent="." instance=ExtResource("2_0c74a")]
+position = Vector2(149, 255)
+
+[node name="Heroe5" parent="." instance=ExtResource("2_0c74a")]
+position = Vector2(245, 430)

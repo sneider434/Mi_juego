@@ -11,5 +11,5 @@ config_version=5
 [application]
 
 config/name="Mi_juego"
+run/main_scene="uid://b852polqo6gbd"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"

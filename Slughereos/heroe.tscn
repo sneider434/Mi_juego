@@ -1,0 +1,59 @@
+[gd_scene load_steps=8 format=3 uid="uid://b852polqo6gbd"]
+
+[ext_resource type="Texture2D" uid="uid://wb7px4vlf5ti" path="res://Slughereos/biblioteca/Cursed_Character_Pack_COMPLETE/Shotgun/idle.png" id="1_w7n2f"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w7n2f"]
+atlas = ExtResource("1_w7n2f")
+region = Rect2(0, 1, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_liahd"]
+atlas = ExtResource("1_w7n2f")
+region = Rect2(64, 1, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_maexk"]
+atlas = ExtResource("1_w7n2f")
+region = Rect2(128, 1, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k6dmc"]
+atlas = ExtResource("1_w7n2f")
+region = Rect2(192, 1, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iypok"]
+atlas = ExtResource("1_w7n2f")
+region = Rect2(256, 1, 64, 63)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_liahd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w7n2f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_liahd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_maexk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k6dmc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iypok")
+}],
+"loop": true,
+"name": &"Estatico",
+"speed": 6.0
+}]
+
+[node name="Heroe" type="Node2D"]
+position = Vector2(131, 121)
+
+[node name="Jesus_shein" type="CharacterBody2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Jesus_shein"]
+position = Vector2(-39, 16)
+sprite_frames = SubResource("SpriteFrames_liahd")
+animation = &"Estatico"
+frame_progress = 0.881009
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Jesus_shein"]
